@@ -1,4 +1,4 @@
-import Head from 'next/head'
+// import Head from 'next/head'
 // import 'swiper/css';
 // import "swiper/css/navigation";
 // import "swiper/css/pagination";
@@ -28,12 +28,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" href="/SS.ico" />
+      <head>
+        <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-      </Head>
-      <body className={`${kumbh.className}`}>{children}</body>
+      </head>
+      <body className={`${kumbh.className}`}>
+        {children}
+        </body>
     </html>
   )
 }

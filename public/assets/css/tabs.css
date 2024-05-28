@@ -99,6 +99,7 @@
 .enterprize_img_div img{
     height: 420px;
     width: 100%;
+    object-fit: contain;
 }
 .application_section{
     padding: 5px;
@@ -116,6 +117,20 @@
     height: 100%;
     border-radius: 20px;
     object-fit: cover;
+}
+.swiper_onimg_text{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    padding: 15px 12px;
+    background-color:rgba(0, 0, 0,0.7);
+    border-radius: 0px 0px 15px 15px;
+}
+.swiper_onimg_text h4{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 24px;
 }
 .appli_title{
     text-align: center;
@@ -160,7 +175,7 @@
     font-size: 18px;
 }
 .service-box-items{
-    min-height: 300px;
+    min-height: 360px;
 }
 .brand-image img{
     height: 60px;

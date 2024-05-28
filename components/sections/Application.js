@@ -82,66 +82,105 @@ const Application = () => {
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/1.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/5.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/9.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/11.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/13.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/15.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/17.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/19.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/21.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/23.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/25.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/27.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/30.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                         </Swiper>
@@ -153,66 +192,105 @@ const Application = () => {
                         <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/1.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/2.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/4.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/6.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/10.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/12.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/14.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/16.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/18.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/20.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/22.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/24.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/30.jpg" alt="icon-img" />
+                                    <div className="swiper_onimg_text">
+                                        <h4>My Title Text</h4>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                         </Swiper>
