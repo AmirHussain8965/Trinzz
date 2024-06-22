@@ -1,4 +1,4 @@
-// File: /home/faizan/Downloads/Trinzz-main2/Trinzz-main/app/service-carousel/page.js
+// File: C:\Users\nas\Downloads\Trinzz\app\service-carousel\page.js
 import * as entry from '../../../../app/service-carousel/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,4 +1,4 @@
-// File: /home/faizan/Downloads/Trinzz-main2/Trinzz-main/app/news-details/page.js
+// File: C:\Users\nas\Downloads\Trinzz\app\news-details\page.js
 import * as entry from '../../../../app/news-details/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
