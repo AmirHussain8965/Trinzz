@@ -289,7 +289,6 @@ export default function Footer2() {
                                     </div>
                                 </div>
                             </div>
-
                             
                             {/* <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 ps-lg-5 ms-lg-5 wow fadeInUp" data-wow-delay=".5s">
                                 <div className="single-footer-widget">
