@@ -24,7 +24,7 @@ export default function Offcanvas({
                                     </button>
                                 </div>
                             </div>
-                            <p className="text d-none d-lg-block">
+                            <p className="text">
                             Trinzz is at the forefront of researching the latest advancements in computer vision and visual processing technologies to redefine your computer vision experience. Unleash your possibilities, create compelling outcomes, and elevate your applications with Trinzz.
                             </p>
                             <div className="d-none d-md-block d-lg-none">
@@ -33,9 +33,6 @@ export default function Offcanvas({
 
                             <div className="offcanvas__contact">
                                 <h4>Contact Info</h4>
-                                <p>
-                                   Trinzz is at the forefront of researching the latest advancements in computer vision and visual processing technologies to redefine your computer vision experience. Unleash your possibilities, create compelling outcomes, and elevate your applications with Trinzz.
-                                   </p>
                                 <ul>
                                     <li className="d-flex align-items-start">
                                         <div className="offcanvas__contact-icon">

@@ -14,7 +14,7 @@ export default function Footer3() {
                 <div className="footer-widgets-wrapper">
                     <div className="container">
                         <div className="row">
-                            <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                            <div className="col-xl-5 col-lg-5 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                 <div className="single-footer-widget">
                                     <div className="widget-head">
                                         <h3>About Us</h3>
