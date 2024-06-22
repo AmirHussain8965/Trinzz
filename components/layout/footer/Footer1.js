@@ -14,7 +14,7 @@ export default function Footer1() {
                     </div>
                     <div className="container">
                         <div className="row d-flex justify-content-between align-items-center">
-                            <div className="col-xl-5 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".3s">
+                            <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".3s">
                                 <div className="single-footer-widget">
                                     <div className="widget-head">
                                         <Link href="/">
