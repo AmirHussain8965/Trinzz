@@ -1,0 +1,36 @@
+/* styles/animations.css */
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  .bounce {
+    display: inline-block;
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes spiral {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(180deg) scale(1.5);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
+  }
+  
+  .spiral {
+    display: inline-block;
+    animation: spiral 2s infinite;
+  }
+  

@@ -15,10 +15,10 @@ export default function Faq1() {
                 </div>
                 <div className="container">
                     <div className="faq-wrapper">
-                        <div className="row g-4">
-                            <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div className="row g-4 d-flex align-items-center">
+                            <div className="col-lg-6 wow fadeInUp pt-4" data-wow-delay=".4s">
                                 <div className="faq-image">
-                                    <img src="/assets/img/faq/faq.png" alt="faq-img" />
+                                    <img src="/assets/img/faq/ezgif-2-a4a64b9504.gif" className="rounded-5" alt="faq-img" />
                                 </div>
                             </div>
                             <div className="col-lg-6">

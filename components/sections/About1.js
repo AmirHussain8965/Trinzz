@@ -22,9 +22,9 @@ export default function About1() {
                                         </div>
                                     </div>
                                     <VideoPopup style={2} />
-                                    <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/new3.png")' }}>
+                                    <div className="about-image-1 bg-cover wow fadeInLeft rounded-2" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/new3.png")' }}>
                                         <div className="about-image-2 wow fadeInUp" data-wow-delay=".5s">
-                                            <img src="/assets/img/new12.png" className="about_two" alt="about-img" />
+                                            <img src="/assets/img/gif_main.gif" className="about_two rounded-2" alt="about-img" />
                                         </div>
                                     </div>
                                 </div>

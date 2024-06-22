@@ -6,9 +6,10 @@ const Collabtab = () => {
             <div className="tab1_content1_main_div">
                 <div className="tab1_left_content">
                     <div className="tab1_left_video wow fadeInUp" data-wow-delay=".3s">
-                        <video playsInline preload="none" muted autoPlay controls={false}>
+                        {/* <video playsInline preload="none" muted autoPlay controls={false}>
                             <source src="/assets/img/video2.mp4" type="video/mp4" />
-                        </video>
+                        </video> */}
+                        <img src="/assets/img/tabs/1670775911494.jpeg" alt="" />
 
                     </div>
                 </div>

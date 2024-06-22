@@ -1416,9 +1416,19 @@ span {
   height: 357px;
   max-width: 393px;
 }
+
+.cta-wrapper .image-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -72px;
+}
 @media (max-width: 1399px) {
   .cta-wrapper .cta-image {
     left: 30px;
+  }
+  .cta-wrapper .image-banner {
+    left: 0px;
   }
 }
 @media (max-width: 1199px) {
@@ -7794,6 +7804,9 @@ html {
   .main-menu {
     display: none;
   }
+}
+.brand-section-2 fix section-padding{
+  padding-top: 120px;
 }
 
 /*# sourceMappingURL=main.css.map */

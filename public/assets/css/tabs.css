@@ -119,18 +119,18 @@
     object-fit: cover;
 }
 .swiper_onimg_text{
-    width: 100%;
     position: absolute;
-    bottom: 0px;
-    padding: 15px 12px;
-    background-color:rgba(0, 0, 0,0.7);
-    border-radius: 0px 0px 15px 15px;
+    bottom: .5rem;
+    left: 1rem;
+    padding: 12px 25px;
+    background-color:rgba(0, 0, 0,0.8);
+    border-radius: 15px;
 }
 .swiper_onimg_text h4{
     color: #fff;
     font-weight: 600;
     margin-bottom: 0;
-    font-size: 24px;
+    font-size: 16px;
 }
 .appli_title{
     text-align: center;

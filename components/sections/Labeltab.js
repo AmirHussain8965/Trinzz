@@ -9,7 +9,7 @@ const Labeltab = () => {
                 {/* <video playsInline preload="none" muted autoPlay controls={false}>
                     <source src="/assets/img/video2.mp4" type="video/mp4" />
                 </video> */}
-                <img src="/assets/img/new21.jpg" alt="labeling-img" />
+                <img src="/assets/img/tabs/data-annotation thumbnail.webp" alt="labeling-img" />
             </div>
         </div>
         <div className="tab1_right_content wow fadeInUp" data-wow-delay=".3s">

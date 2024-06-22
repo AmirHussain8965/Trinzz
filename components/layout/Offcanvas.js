@@ -25,7 +25,6 @@ export default function Offcanvas({
                                 </div>
                             </div>
                             <p className="text d-none d-lg-block">
-                            Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus. Change with:
                             Trinzz is at the forefront of researching the latest advancements in computer vision and visual processing technologies to redefine your computer vision experience. Unleash your possibilities, create compelling outcomes, and elevate your applications with Trinzz.
                             </p>
                             <div className="d-none d-md-block d-lg-none">

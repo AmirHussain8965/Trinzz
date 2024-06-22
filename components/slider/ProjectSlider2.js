@@ -21,6 +21,8 @@ const swiperOptions = {
         nextEl: ".array-prev",
         prevEl: ".array-next",
     },
+    direction : 'horizontal',
+    rtl: true,
     breakpoints: {
         1199: {
             slidesPerView: 3,

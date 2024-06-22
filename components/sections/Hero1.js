@@ -1,11 +1,15 @@
 
 import Link from 'next/link'
 import VideoPopup from '../elements/VideoPopup'
+import 'animate.css/animate.min.css';
+
+
+
 
 export default function Hero1() {
     return (
         <>
-            <section className="hero-section fix hero-1 bg-cover" style={{ backgroundImage: 'url("assets/img/hero/hero-bg.jpg")' }}>
+            <section className="hero-section fix hero-1 bg-cover" style={{ backgroundImage: 'url("assets/img/hero/hero-bg.jpg")', boxShadow:'10px 10px 10px black' }}>
                 <div className="text-transparent">
                     <h2>Technology</h2>
                 </div>
@@ -27,10 +31,10 @@ export default function Hero1() {
                             <div className="hero-content">
                                 <h6 className="wow fadeInUp" data-wow-delay=".2s">BEST COMPUTER VISION TECH STACK</h6>
                                 <h1 className="wow fadeInUp" data-wow-delay=".4s">
-                                Speed up your Computer Vision 
+                                Speed up your <span className="bounce" style={{ animationDelay: '.4s', display: 'inline-block' }}>Computer Vision</span>
                                 </h1>
                                 <p className="wow fadeInUp" data-wow-delay=".6s">
-                                Revolutionize your computer vision strategy with cutting-edge tools and unparalleled expertise. <br/> Built for enterprises, Trinzz is set to become the preferred choice for industry leaders.
+                                Revolutionize your computer vision strategy with cutting-edge tools and unparalleled<br/> expertise. Built for enterprises, <b>Trinzz is set to become the<br/> preferred choice for industry leaders.</b>
                                 </p>
                                 <div className="hero-button">
                                     <Link href="/about" className="theme-btn wow fadeInUp" data-wow-delay=".8s">

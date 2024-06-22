@@ -13,7 +13,7 @@ export default function Footer1() {
                         <img src="/assets/img/footer-shape-2.png" alt="shape-img" />
                     </div>
                     <div className="container">
-                        <div className="row">
+                        <div className="row d-flex justify-content-between align-items-center">
                             <div className="col-xl-5 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".3s">
                                 <div className="single-footer-widget">
                                     <div className="widget-head">
@@ -33,8 +33,33 @@ export default function Footer1() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 ps-lg-5 ms-lg-5 wow fadeInUp" data-wow-delay=".5s">
-                                <div className="single-footer-widget">
+                            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 ps-lg-5 ms-lg-5 wow fadeInUp" data-wow-delay=".5s">
+                            <div className="single-footer-widget">
+                                    <div className="widget-head">
+                                        <h3>Contact Us</h3>
+                                    </div>
+                                    <div className="footer-content">
+                                        <ul className="contact-info">
+                                            <li>
+                                                <i className="fas fa-map-marker-alt" />
+                                                5501 DeMarcus Blvd, Apartment 242, Dublin, California 94568
+                                            </li>
+                                            <li>
+                                                <i className="fa-solid fa-phone-volume" />
+                                                <Link href="/tel:+16692520867">+16692520867</Link>
+                                            </li>
+                                            <li>
+                                                <i className="fa-regular fa-envelope" />
+                                                <Link href="/mailto:hello@trinzz.com">hello@trinzz.com</Link>
+                                            </li>
+                                        </ul>
+                                        <Link href="/contact" className="theme-btn hover-white mt-4">
+                                            get A Quote
+                                            <i className="fa-solid fa-arrow-right-long" />
+                                        </Link>
+                                    </div>
+                                </div>
+                                {/* <div className="single-footer-widget">
                                     <div className="widget-head">
                                         <h3>Quick Links</h3>
                                     </div>
@@ -70,35 +95,11 @@ export default function Footer1() {
                                             </Link>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </div>
-                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 ps-xl-5 wow fadeInUp" data-wow-delay=".9s">
-                                <div className="single-footer-widget">
-                                    <div className="widget-head">
-                                        <h3>Contact Us</h3>
-                                    </div>
-                                    <div className="footer-content">
-                                        <ul className="contact-info">
-                                            <li>
-                                                <i className="fas fa-map-marker-alt" />
-                                                5501 DeMarcus Blvd, Apartment 242, Dublin, California 94568
-                                            </li>
-                                            <li>
-                                                <i className="fa-solid fa-phone-volume" />
-                                                <Link href="/tel:+16692520867">+16692520867</Link>
-                                            </li>
-                                            <li>
-                                                <i className="fa-regular fa-envelope" />
-                                                <Link href="/mailto:hello@trinzz.com">hello@trinzz.com</Link>
-                                            </li>
-                                        </ul>
-                                        <Link href="/contact" className="theme-btn hover-white mt-4">
-                                            get A Quote
-                                            <i className="fa-solid fa-arrow-right-long" />
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
+                            {/* <div  className="col-xl-3 col-lg-4 col-md-6 col-sm-12 ps-xl-5 wow fadeInUp" data-wow-delay=".9s">
+                                
+                            </div> */}
                         </div>
                     </div>
                 </div>

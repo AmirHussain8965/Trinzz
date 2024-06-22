@@ -14,6 +14,9 @@ const swiperOptions = {
         disableOnInteraction: false,
     },
 
+    direction : 'horizontal',
+    rtl: true,
+
     breakpoints: {
         1199: {
             slidesPerView: 5,

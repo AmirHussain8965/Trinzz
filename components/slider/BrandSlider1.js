@@ -14,6 +14,8 @@ const swiperOptions = {
         delay: 2000,
         disableOnInteraction: false,
     },
+    direction : 'horizontal',
+    rtl : false,
 
     breakpoints: {
         1199: {

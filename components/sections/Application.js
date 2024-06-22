@@ -10,7 +10,8 @@ const swiperOptions = {
     loop: true,
     autoplay: {
         delay: 1500,
-        disableOnInteraction: false,
+        disableOnInteraction: true,
+        reverseDirection: true,
     },
     navigation: {
         nextEl: ".array-prev",
@@ -42,7 +43,7 @@ const swiperOptions2 = {
     loop: true,
     autoplay: {
         delay: 1500,
-        disableOnInteraction: false,
+        disableOnInteraction: true,
         reverseDirection: true,
     },
     navigation: {
@@ -83,7 +84,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/1.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Agriculture</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -91,7 +92,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/5.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Medicine</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -99,7 +100,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/9.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Automotive</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -107,7 +108,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/11.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Ecommerce</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -115,7 +116,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/13.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Fashion</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -123,7 +124,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/15.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Scurity & Surveillance</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -131,7 +132,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/17.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Construction</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -139,7 +140,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/19.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Construction</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -147,7 +148,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/21.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Education</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -155,7 +156,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/23.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Sports</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -163,7 +164,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/25.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Sports</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -171,7 +172,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/27.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Fitness</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -179,21 +180,21 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/30.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Scurity & Surveillance</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
                         </Swiper>
                     </div>
                 </div>
-                <div className="application_swiper_one">
+                <div className="application_swiper_one" style={{paddingTop:'40px'}}>
                     <div className="swiper service-slider">
                         <Swiper {...swiperOptions2} className="swiper-wrapper">
                         <SwiperSlide>
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/1.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Agriculture</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -201,7 +202,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/2.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Agriculture</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -209,7 +210,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/4.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Warehousing</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -217,7 +218,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/6.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Retail</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -225,7 +226,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/10.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Scurity & Surveillance</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -233,7 +234,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/12.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Fashion</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -241,7 +242,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/14.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Fashion</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -249,7 +250,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/16.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Scurity & Surveillance</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -257,7 +258,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/18.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Construction</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -265,7 +266,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/20.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Education</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -273,7 +274,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/22.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Agriculture</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -281,7 +282,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/24.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Sports</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -289,7 +290,7 @@ const Application = () => {
                                 <div className="application_swiper_img">
                                     <img src="/assets/img/30.jpg" alt="icon-img" />
                                     <div className="swiper_onimg_text">
-                                        <h4>My Title Text</h4>
+                                        <h4>Scurity & Surveillance</h4>
                                     </div>
                                 </div>
                             </SwiperSlide>

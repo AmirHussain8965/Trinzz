@@ -13,8 +13,8 @@ export default function Cta1() {
                         <div className="circle-shape">
                             <img src="/assets/img/circle.png" alt="shape-img" />
                         </div>
-                        <div className="cta-image wow fadeInUp" data-wow-delay=".3s">
-                            <img src="/assets/img/cta.png" alt="cta-img" />
+                        <div className="cta-image image-banner wow fadeInUp" data-wow-delay=".3s">
+                            <img src="/assets/img/banner/Computer-Vision-Glossary-Title.webp" alt="cta-img" />
                         </div>
                         <div className="cta-items">
                             <h3 className="wow fadeInUp" data-wow-delay=".5s">Start Building With Cutting <br/> Edge Infrastructure</h3>
