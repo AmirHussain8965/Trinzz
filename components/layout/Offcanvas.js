@@ -33,6 +33,9 @@ export default function Offcanvas({
 
                             <div className="offcanvas__contact">
                                 <h4>Contact Info</h4>
+                                <p>
+                                   Trinzz is at the forefront of researching the latest advancements in computer vision and visual processing technologies to redefine your computer vision experience. Unleash your possibilities, create compelling outcomes, and elevate your applications with Trinzz.
+                                   </p>
                                 <ul>
                                     <li className="d-flex align-items-start">
                                         <div className="offcanvas__contact-icon">

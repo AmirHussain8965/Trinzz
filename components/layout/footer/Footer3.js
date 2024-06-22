@@ -34,7 +34,7 @@ export default function Footer3() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".5s">
+                            {/* <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".5s">
                                 <div className="single-footer-widget">
                                     <div className="widget-head">
                                         <h3>Quick Links</h3>
@@ -72,7 +72,7 @@ export default function Footer3() {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".5s">
                                 <div className="single-footer-widget style-margin">
                                     <div className="widget-head">
